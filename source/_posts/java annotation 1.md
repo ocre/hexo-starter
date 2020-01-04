@@ -1,8 +1,8 @@
-```
+---
 title: java annotation (1)
 tags: annotation
 date: 2019-12-11 09:45:02
-```
+---
 
 在各种流行的Java开发框架比如Spring boot中，大量使用了注解Annotation来做自动化配置。学习Spring有必要先了解一下注解。
 注解是从Java 1.5版本开始加入到Java语言中的，因其便利性逐渐被Java开发者广泛接受。那么，注解到底是什么东西呢？
