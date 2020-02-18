@@ -26,3 +26,4 @@ git push
 这种新方式非常灵活，不需要hexo命令，也就不需要在每台电脑上安装hexo以及所依赖的node.js, npm等。只需要电脑上有git即可操作。
 
 netlify配置步骤，可参考官方blog：[A Step-by-Step Guide: Hexo on Netlify](https://www.netlify.com/blog/2015/10/26/a-step-by-step-guide-hexo-on-netlify/)
+
