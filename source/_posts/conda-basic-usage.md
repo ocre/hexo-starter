@@ -1,16 +1,18 @@
 ---
 title: Conda简介及基本用法
 date: 2020-02-18 13:59:10
-tags: Conda,Python
+tags: 
+- Conda
+- Python
 ---
 
-# 什么是Conda？
+## 什么是Conda？
 
 Conda是一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。Conda主要提供包管理和环境管理两种能力。包管理与pip的使用类似，环境管理则允许用户同时安装多个版本的python，并支持快速切换。
 
-# Conda常用命令
+## Conda常用命令
 
-## Conda包管理
+### Conda包管理
 
 1.查看已安装的所有包: conda list
 2.查看已安装的特定包：conda list scrapy
@@ -22,7 +24,7 @@ Conda是一种通用包管理系统，旨在构建和管理任何语言和任何
 8.升级一个包: conda update scrapy
 9.升级全部包: conda upgrade --all
 
-## Conda环境管理
+### Conda环境管理
 
 1.查看所有虚拟环境： conda env list
 2.激活特定环境：activate env_name

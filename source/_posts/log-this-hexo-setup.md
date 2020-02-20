@@ -2,6 +2,7 @@
 title: log this hexo setup
 date: 2019-12-08 10:10:29
 tags:
+- Hexo
 ---
 
 ## setup your hexo blog with github pages hosting

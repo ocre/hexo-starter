@@ -2,6 +2,7 @@
 title: 使用netlify自动发布hexo博客
 date: 2019-12-08 20:30:01
 tags:
+- Hexo
 ---
 
 使用hexo博客发布一篇博文的流程为：

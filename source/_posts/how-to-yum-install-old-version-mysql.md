@@ -1,7 +1,9 @@
 ---
 title: CentOS 7 Yum安装低版本的MySQL（MySQL 5.6）
 date: 2020-01-19 18:10:15
-tags: Linux,MySQL
+tags: 
+- Linux
+- MySQL
 ---
 
 我有一台阿里云RDS数据库到期了，考虑到目前业务规模，续费的性价比太低，不如在自己的ECS云服务器上装MySQL再把数据迁移过来。为了避免数据文件迁移时产生兼容性问题，要尽量保证自建MySQL跟RDS上的MySQL的主版本保持一致。

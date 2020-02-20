@@ -1,3 +1,10 @@
+---
+title: Spring IOC 和 DI
+date: 2019-12-25 11:49:51
+tags: 
+- Java
+---
+
 ## IOC - 一种编程思想
 
 ### 定义 （Inversion of Control)

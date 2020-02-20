@@ -1,3 +1,10 @@
+---
+title: Docker简介
+date: 2020-01-12 13:59:10
+tags: 
+- Docker
+---
+
 ## Docker 基本概念
 理解Docker, 必须先搞懂以下三个基本概念:
 * ***镜像(Image)***: 相当于一套root文件系统。

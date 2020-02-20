@@ -1,17 +1,19 @@
 ---
 title: java annotation (1)
-tags: annotation
 date: 2019-12-11 09:45:02
+tags: 
+- Java
+- annotation
 ---
 
 在各种流行的Java开发框架比如Spring boot中，大量使用了注解Annotation来做自动化配置。学习Spring有必要先了解一下注解。
 注解是从Java 1.5版本开始加入到Java语言中的，因其便利性逐渐被Java开发者广泛接受。那么，注解到底是什么东西呢？
 
-### 注解的定义
+## 注解的定义
 就个人理解，注解就是贴在程序源码上的语法标签，为编译器和JVM提供关于被贴代码（类、方法、构造函数、变量、参数等等）的一些辅助信息，这些信息可以帮助编译器做一些额外处理（比如@Overrride注解告诉编译器需要检查是否真的做了方法覆盖），或者让JVM在加载这段代码时做必要的前置工作（比如@DependsOn注解告知JVM需要先加载所依赖的类）。
 我看到的比较靠谱的注解定义[在这里](https://www.geeksforgeeks.org/annotations-in-java/)。
 
-### 元注解
+## 元注解
 Java语言提供如下元注解：
 * @Override 
   典型的标记类注解，作用是明确告知编译器该方法Override了基类、接口、Object等的共有方法。编译器将对该注解标记的方法进行检查，若发现不符合Override定义，会直接报错。
@@ -36,7 +38,7 @@ Java语言提供如下元注解：
 * @SafeVarargs
   针对可变参数构造函数或方法生效，让编译器忽略unchecked警告⚠️。
 
-### 自定义注解
+## 自定义注解
   我们可以通过组合现有注解的方式来定义新的注解。注解的定义语法如下：
 ```
 [Access Specifier] @interface <AnnotationName> {

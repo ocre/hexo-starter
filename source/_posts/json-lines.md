@@ -1,7 +1,9 @@
 ---
 title: Scrapy中的JSON Lines文本格式是什么鬼？
 date: 2020-02-18 21:38:10
-tags: JSON,Scrapy
+tags: 
+- JSON
+- Scrapy
 ---
 
 # 什么是JSON Lines

@@ -2,6 +2,7 @@
 title: 阿里云RDS Mysql物理备份文件恢复到自建数据库
 date: 2020-01-19 20:30:01
 tags:
+- Mysql
 ---
 
 今天需要将Mysql数据从RDS迁移到ECS云服务器上自建Mysql中。因我的RDS已到期停机，无法通过mysqldump等命令导出数据，好在RDS给提供了数据库物理文件的每日全量备份，姑且用之。

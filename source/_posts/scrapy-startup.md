@@ -1,10 +1,12 @@
 ---
 title: Scrapy开发环境搭建
 date: 2020-02-18 11:49:51
-tags: Scrapy,crawler,spider,Python
+tags: 
+- Scrapy
+- Python
 ---
 
-# 准备Python3运行环境
+## 准备Python3运行环境
 Scrapy基于Python语言编写，因此运行Scrapy需要先安装Python运行环境。所谓Python运行环境指可以编译执行Python代码的软件集合。已经安装了运行环境的请直接跳过。
 目前常见的Python运行环境有三种方式：
 1.直接安装[Python3](https://www.python.org/)
@@ -18,7 +20,7 @@ Anaconda是Python的一个科学计算发行版，支持 Linux, Mac和Windows系
 
 装好Anaconda后，就可以继续安装Scrapy了。
 
-# 安装Scrapy
+## 安装Scrapy
 按惯例，参照[Scrapy官网](https://scrapy.org/)的建议进行安装。官网提供了conda和pip两种安装方式，一条命令即可搞定。
 ```shell
 # 选择conda方式安装
@@ -30,7 +32,7 @@ pip install scrapy
 ```
 安装好Scrapy后，就可以创建Scrapy项目了。
 
-# 创建Scrapy项目
+## 创建Scrapy项目
 首先进入将要存放Scrapy工程代码的目录，执行如下命令即可创建一个名为`tutorial`的工程。
 ```shell
 scrapy startproject tutorial
@@ -55,7 +57,7 @@ tutorial/
 接下来就可以编写自己的spider类了。请参考Scrapy官方的[Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html#our-first-spider)。
 
 
-# Scrapy常见命令
+## Scrapy常见命令
 * 创建spider（基于basic模板）：
 ```shell
 python -m scrapy genspider quotes "quotes.toscrape.com"
