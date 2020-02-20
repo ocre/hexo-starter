@@ -52,4 +52,28 @@ tutorial/
         spiders/          # spider子模块
             __init__.py
 ```
-接下来就可以编写自己的spider类了。请参考Scrapy官方的[Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html#our-first-spider)
+接下来就可以编写自己的spider类了。请参考Scrapy官方的[Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html#our-first-spider)。
+
+
+# Scrapy常见命令
+* 创建spider（基于basic模板）：
+```shell
+python -m scrapy genspider quotes "quotes.toscrape.com"
+```
+* 运行spider：
+```shell
+python -m scrapy crawl quotes
+```
+或者
+```
+python -m scrapy runspider quotes.py
+```
+* 测试提取数据：
+```shell
+python -m scrapy shell 'http://quotes.toscrape.com/page/1/'
+```
+* 导出数据到`JSON`文档：
+```shell
+python -m scrapy crawl quotes -o quotes.json
+```
+
