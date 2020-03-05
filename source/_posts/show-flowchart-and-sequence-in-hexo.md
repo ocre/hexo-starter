@@ -6,7 +6,7 @@ tags:
 ---
 
 ## 问题描述
-写Blog时，想展示时序图和流程图，网友给推荐了流程图插件`[hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart)`和时序图插件`[hexo-filter-sequence](https://github.com/bubkoo/hexo-filter-sequence)`。装上两个插件之后，根据github上的示例测试了一下，发现在hexo中时序图无法显示。
+写Blog时，想展示时序图和流程图，网友给推荐了流程图插件[hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart)和时序图插件[hexo-filter-sequence](https://github.com/bubkoo/hexo-filter-sequence)。装上两个插件之后，根据github上的示例测试了一下，发现在Hexo中时序图无法显示。
 
 ## 问题处理
 根据[这篇博文](https://www.dazhuanlan.com/2019/12/24/5e0209fc19074/)的指示，顺利解决了这个问题。修改过程记录如下：
