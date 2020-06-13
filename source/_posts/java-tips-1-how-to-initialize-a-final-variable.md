@@ -1,5 +1,5 @@
 ---
-title: Java tips 1: final变量的几种初始化方式
+title: Java tips 1 - final变量的几种初始化方式
 date: 2020-04-01
 tags:
 - Java
