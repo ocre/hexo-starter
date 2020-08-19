@@ -29,6 +29,7 @@ tags:
 
 ### IO流的体系结构
 主要的IO流类可以用下面一张表整合：
+
 | 分类 | 字节输入流 | 字节输出流 | 字符输入流 | 字符输出流 |
 | -- | -- | -- | -- | -- |
 | 抽象基类 | InputStream | OutputStream | Reader | Writer |

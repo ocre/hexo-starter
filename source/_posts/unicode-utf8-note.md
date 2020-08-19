@@ -82,6 +82,7 @@ char32_t data_utf32[]={0x00006C49,0x00005B57};        //UTF-32编码
 那么，计算机如何知道某个文件到底使用哪种字节序呢？
 Unicode标准建议使用BOM（Byte Order Mark）来区分字节序。在传输字节流之前，先传输被作为BOM字符的“零宽无中断空格”（zero width no-break space）字符，用一个未定义的编号FEFF表示。正好是两个字节。
 各种UTF编码的BOM如下：
+
 | UTF编码 | Byte Order Mark |
 | -- | -- |
 | UTF-8 without BOM | 无 |
