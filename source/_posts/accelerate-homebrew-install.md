@@ -2,7 +2,7 @@
 title: Homebrew每次装软件都卡在更新界面怎么办？
 date: 2019-12-08 11:15:03
 tags:
-- homebrew
+- Tools
 ---
 
 自从用上Mac，Homebrew就成了一个绕不开的工具。Homebrew是Mac的软件包管理工具，作用相当于CentOS上的yum。Mac上的好多软件，都需要用Homebrew安装。基本上使用`brew install <packageName>`或者`brew cask install <packageName>`就能一步到位装好软件了。但是头疼的是，我在运行`brew install`的时候，经常会提示`Updating Homebrew...`，然后卡住好几分钟，也不知道后台实际上在干些什么，体验很不好。截图如下：

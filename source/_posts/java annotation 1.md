@@ -3,7 +3,6 @@ title: java annotation (1)
 date: 2019-12-11 09:45:02
 tags: 
 - Java
-- annotation
 ---
 
 在各种流行的Java开发框架比如Spring boot中，大量使用了注解Annotation来做自动化配置。学习Spring有必要先了解一下注解。

@@ -2,7 +2,7 @@
 title: Mac OS Catalina修改默认截图名称
 date: 2020-06-30 08:51:09
 tags:
-- tools
+- Tools
 ---
 
 在Mac系统中，截图是一件极其简单的事。无需安装任何额外软件，直接使用`command+shift+4`就可以用光标框选任意屏幕大小进行截图了，截图会自动保存到桌面上。

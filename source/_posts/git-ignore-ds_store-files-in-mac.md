@@ -1,10 +1,9 @@
 ---
-title: Git中忽略.DS_Store文件，一次性配置搞定
+title: 一次性搞定Git中忽略.DS_Store文件
 date: 2020-08-19 19:12:03
 tags:
 - Tools
 - Git
-- Mac
 ---
 
 .DS_Store文件是Mac系统用来存储当前文件夹的显示属性元数据的，如图标位置等设置。.DS_Store广泛存在于每个文件夹下，一般供Finder、Spotlight使用。而对于基于Git托管的代码仓库来说，.DS_Store就是无用数据了。我们需要在Git中忽略它们。

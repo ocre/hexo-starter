@@ -2,7 +2,7 @@
 title: 安装和配置maven
 date: 2020-03-30 17:52:09
 tags:
-- tools
+- Tools
 ---
 
 安装完JDK，我们接下来安装maven。

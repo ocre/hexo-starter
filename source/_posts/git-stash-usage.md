@@ -3,6 +3,7 @@ title: 使用git stash暂存和恢复工作进度
 date: 2020-05-03 21:56:31
 tags:
 - Tools
+- Git
 ---
 
 我们有时候正在开发一个feature，突然同事插进来说发现一个重大bug，需要立即修复。但是我们的feature才编码一半，不能提交。这时候就轮到`git stash`闪亮登场了。
