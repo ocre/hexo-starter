@@ -2,7 +2,8 @@
 title: 一步步打造高效coding环境 - git的安装和配置
 date: 2020-03-30 16:05:01
 tags:
-- tools
+- Tools
+- Git
 ---
 
 ### 安装git

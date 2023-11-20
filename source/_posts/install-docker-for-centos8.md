@@ -2,7 +2,7 @@
 title: centos8安装docker
 date: 2020-03-31 18:37:03
 tags:
-- tools
+- Tools
 ---
 
 1. 安装依赖

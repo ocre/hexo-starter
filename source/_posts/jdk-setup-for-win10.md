@@ -2,7 +2,7 @@
 title: 安装配置java
 date: 2020-03-30 16:34
 tags:
-- tools
+- Tools
 ---
 
 java的安装配置比较简单。步骤如下：
